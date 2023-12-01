@@ -1,0 +1,75 @@
+.contacts {
+    background-image: url(/dist//img/banner-bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 34vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    &_text {
+        color: $clr-light;
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 120%;
+        text-align: center;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+        color: #FAFAFA;
+        margin: 0;
+        height: 3px;
+    }
+}
+
+.banner {
+    padding: 5rem;
+}
+
+
+
+// form. .input-box {
+//     display: flex;
+//     justify-content: space-between;
+// }
+
+// .input-box .input-field {
+//     width: 48.5%;
+// }
+// .field .item {
+//     width: 100%;
+//     padding: 18px;
+//     background: transparent;
+//     border: 2px solid;
+//     outline: none;
+//     border-radius: 6px;
+//     font-size: 16px;
+//     margin: 12px 0;
+// }
+
+// .field .item::placeholder {
+//     color: rgba(255, 255, 255, .3);
+// }
+// form .textarea-field .item{
+//     resize: none;
+// }
+// form button {
+//     padding: 12px 32px;
+//     background: red;
+//     border: none;
+//     outline: none;
+//     border-radius: 6px;
+//     box-shadow: 0 0 10px red;
+//     color: black;
+//     letter-spacing: 1px;
+//     font-weight: 600;
+//     cursor: pointer;
+//     margin-top: 20px;
+//     transition: .5 ease;
+
+// }
+
+// form button:hover{
+//     box-shadow: none;
+// }

@@ -2,33 +2,39 @@
     background: transparent;
     position: absolute;
     width: 100%;
+    padding: 1rem 1rem;
     &-wrapper{
         @include centerAll;
+    }
+    &-logo{
+        img{
+            width: 19rem;
+        }
     }
     &-nav{
         position: absolute;
         right: 0;
-        top: 4.5rem;
+        top: 7.5rem;
         margin-right: 1.1rem;
         border-radius: 8px;
         background: #0D0D0D;
-        z-index: 9999;
         overflow: hidden;
         height: 0;
         transition: 0.5s ease;
         @include transitionEZ;
         &.open{
-            height: 13rem;
+            height: 22.2rem;
             @include transitionEZ;
         }
         ul{
-            padding: 15px 20px;
+            padding: 16px 20px;
             margin-bottom: 8px;
             li{
                 margin-bottom: 8px;
                 a{
                     color: $clr-light;
                     font-family: sans-serif;
+                    font-size: 19px;
                     &:hover{
                         color: $clr-hover;
                     }

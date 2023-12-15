@@ -3,7 +3,7 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 59rem 35rem;
-    background-color: $clr-dark;
+    background-color: #665b5b;
     background-blend-mode: multiply;
     height: 32.2vh;
     display: flex;
@@ -14,12 +14,13 @@
         text-align: center;
         color: $clr-light;
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 3.2rem;
+        margin-top: 5rem;
     }
 }
 
 .first{
-    background: #F0F2F4;
+    background-color: #F0F2F4;
     &-logo{
         margin-top: 4.8rem;
         img{
@@ -32,20 +33,61 @@
         margin-top: 48px;
         padding: 32px;
         border-radius: 20px;
+        
         h3{
-            font-size: 3rem;
+            font-size: 2.5rem;
+            font-weight: 300;
+            font-family: 'Inter', sans-serif;          
+            margin-bottom: 1rem;
+
         }
         p{
             font-size: 16px;
             margin-bottom: 5px;
+            font-family: 'Inter', sans-serif;
         }
         ul{
             display: flex;
-            gap: 2rem;
+            margin-top: 1rem;
             li{
                 font-size: 16px;
-                a{
-                    
+                font-family: 'Inter', sans-serif;
+                
+            }
+        }
+    }
+    &-text{
+        margin-top: 5rem;
+        h1{
+            line-height: 120%;
+            font-size: 38px;
+            font-weight: 600;
+        }
+        h2{
+            font-family: 'Inter', sans-serif;
+            margin-top: 1rem;
+        }
+        p{
+            font-family: 'Inter', sans-serif;
+            color: #797D86;
+            font-size: 16px;
+            line-height: 130%;
+            margin-top: 1rem;
+        }
+        ul{
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 2rem;
+            li{
+                margin: 1.1rem;
+                p{
+                    font-size: 19px;
+                    color: $clr-dark;
+                    font-weight: 600;
+                    margin-top: 2rem;
                 }
             }
         }

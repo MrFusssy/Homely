@@ -1,0 +1,60 @@
+.real{
+    padding: 1.5rem;
+    margin-top: 3.5rem;
+    &-text{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h1{
+            text-transform: uppercase;
+            font-size: 39px;
+        }
+        p{
+            color: #797D86;
+            font-size: 16px;
+            font-family: 'Inter', sans-serif;
+            margin-bottom: 4rem;
+        }
+    }
+    &-person{
+        background-color: #F0F2F4 ;
+        border-radius: 10px;
+        padding-top: 4rem;
+        ul{
+            text-align: center;
+            li{
+                img{
+                    margin-bottom: 1rem;
+                }
+                h2{
+                  font-family: 'Inter', sans-serif;  
+                  font-size: 23px;
+                }
+                p{
+                    color: #797D86;
+                    font-family: 'Inter', sans-serif;  
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1.5rem;
+                    li{
+                        margin-top: 1.7rem;
+                        i{
+                            font-size: 24px;
+                            color: #2C2D2F;
+                            margin-bottom: 6rem;
+                            cursor: pointer;
+                            &:hover{
+                                color: $clr-hover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

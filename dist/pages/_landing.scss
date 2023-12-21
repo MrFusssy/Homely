@@ -1,0 +1,39 @@
+.banner {
+  background-image: url("/img/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  &-wrapper {
+    @include flexBox(center);
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    .banner-text {
+      h1 {
+        font-size: 45px;
+        line-height: 1.2;
+        color: $clr-light;
+        font-weight: 600;
+      }
+    }
+    .banner-btn {
+      display: flex;
+      a {
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 19px;
+        padding: 1.5rem 3rem;
+        background: lightsalmon;
+        color: $clr-light;
+        text-decoration: none;
+      }
+    }
+  }
+}
